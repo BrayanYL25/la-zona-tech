@@ -1,0 +1,30 @@
+#title::after {
+  content: "";
+  background-color: black;
+  position: absolute;
+  bottom: -20px;
+  width: 0%;
+  height: 10px;
+  transition: width 2s ease-in-out;
+}
+
+body {
+  background-size: 6rem 4rem;
+  background-image: linear-gradient(to right, #c9c9c9, transparent 1px), linear-gradient(to bottom, #c9c9c9, transparent 1px);
+}
+
+#title.active::after {
+  width: 80%;
+}
+
+#gradient {
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: radial-gradient(circle 500px at 50% 200px, #d1ecff, transparent);
+  /* d1ecff */
+}
+.row > * {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
