@@ -26,14 +26,14 @@ const createProducts = (products) => {
 
 $d.addEventListener('DOMContentLoaded', () => {
   $title.classList.add('active')
-  // $content.append(...placeholders)
+  $content.append(...placeholders)
 
   handleFetch()
     .then(response => {
       const data = createProducts(response)
-      $content.innerHTML = data
-      // setTimeout(()  => {
-      //   $content.innerHTML = data
-      // }, 400)
+      // $content.innerHTML = data
+      setTimeout(()  => {
+        $content.innerHTML = data
+      }, 400)
     })
 })
