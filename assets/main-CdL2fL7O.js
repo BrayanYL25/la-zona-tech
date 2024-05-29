@@ -50,7 +50,7 @@
         <a href="#" class="btn btn-outline-primary">S/. ${s}</a>
       </div>
     </div>`,createPlaceholder:()=>new DOMParser().parseFromString(`<div class="card col-7 col-sm-5 col-md-4 col-lg-3" aria-hidden="true">
-    <img src="/rect.svg" class="card-img-top" alt="...">
+    <img src="la-zona-tech/rect.svg" class="card-img-top" alt="...">
     <div class="card-body">
        <h5 class="card-title placeholder-glow">
          <span class="placeholder col-6"></span>
@@ -64,4 +64,4 @@
        </p>
        <a class="btn btn-outline-primary disabled placeholder col-6" aria-disabled="true"></a>
      </div>
-   </div>`,"text/html").querySelector(".card")},Tn=document,Ts=Tn.querySelector("#content .row"),Hl=Tn.getElementById("title"),Wl=["","","","","",""].map(n=>wi.createPlaceholder()),Fl=async()=>{try{return(await fetch("/products.json")).json()}catch(n){console.error(n)}},jl=n=>n.map(({image:t,name:e,description:s,price:i,category:r,mark:o,available:a})=>wi.createCard(t,e,s,i,r,o,a)).join(" ");Tn.addEventListener("DOMContentLoaded",()=>{Hl.classList.add("active"),Ts.append(...Wl),Fl().then(n=>{const t=jl(n);setTimeout(()=>{Ts.innerHTML=t},400)})});
+   </div>`,"text/html").querySelector(".card")},Tn=document,Ts=Tn.querySelector("#content .row"),Hl=Tn.getElementById("title"),Wl=["","","","","",""].map(n=>wi.createPlaceholder()),Fl=async()=>{try{return(await fetch("la-zona-tech/products.json")).json()}catch(n){console.error(n)}},jl=n=>n.map(({image:t,name:e,description:s,price:i,category:r,mark:o,available:a})=>wi.createCard(t,e,s,i,r,o,a)).join(" ");Tn.addEventListener("DOMContentLoaded",()=>{Hl.classList.add("active"),Ts.append(...Wl),Fl().then(n=>{const t=jl(n);setTimeout(()=>{Ts.innerHTML=t},400)})});
