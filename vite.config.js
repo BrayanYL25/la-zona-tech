@@ -8,7 +8,7 @@ export default defineConfig({
       '~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap')
     },
   },
-  base: '/',
+  base: '/la-zona-tech/',
   build: {
     rollupOptions: {
       input: {
