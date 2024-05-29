@@ -15,7 +15,7 @@ const factoryBootstrap = {
   },
   createPlaceholder: () => {
     return new DOMParser().parseFromString(`<div class="card col-7 col-sm-5 col-md-4 col-lg-3" aria-hidden="true">
-    <img src="/rect.svg" class="card-img-top" alt="...">
+    <img src="rect.svg" class="card-img-top" alt="...">
     <div class="card-body">
        <h5 class="card-title placeholder-glow">
          <span class="placeholder col-6"></span>
