@@ -1,0 +1,221 @@
+[
+  {
+      "id": "f1a3cdf4-7a0b-4c86-9bd1-b82a82020ca7",
+      "name": "Monitor HP Curvo V27c G5 FHD",
+      "price": 1139,
+      "stock": 10,
+      "category": "Monitor",
+      "description": "Tu monitor ideal y sostenible",
+      "mark": "HP",
+      "available": true,
+      "image": "https://falabella.scene7.com/is/image/FalabellaPE/120845958_1?wid=800&hei=800&qlt=70"
+  },
+  {
+      "id": "27956e28-6929-418f-844b-405616751538",
+      "name": "Monitor LG 27GP850-B",
+      "price": 1399,
+      "stock": 15,
+      "category": "Monitor",
+      "description": "Monitor gaming de 27 pulgadas con resolución 2560x1440, 165Hz y 1ms de tiempo de respuesta.",
+      "mark": "LG",
+      "available": true,
+      "image": "https://www.lg.com/es/images/monitores/md07527871/gallery/27gp850-1.jpg"
+  },
+  {
+      "id": "3565804a-747d-4805-8914-7852c5425362",
+      "name": "Teclado mecánico Logitech G915 TKL",
+      "price": 1199,
+      "stock": 5,
+      "category": "Teclado",
+      "description": "Teclado mecánico inalámbrico con interruptores GL Clicky, retroiluminación RGB y diseño TKL.",
+      "mark": "Logitech",
+      "available": true,
+      "image": "https://resource.logitechg.com/w_659,c_limit,f_auto,q_auto:best,f_auto,dpr_2.0/content/dam/gaming/en/products/g915-tkl/g915-tkl-gallery-2-carbon-new.png?v=1"
+  },
+  {
+      "id": "45789123-4567-8901-2345-678901234567",
+      "name": "Mouse inalámbrico Logitech G502 Lightspeed",
+      "price": 899,
+      "stock": 12,
+      "category": "Mouse",
+      "description": "Mouse inalámbrico para juegos con sensor HERO 25K, 11 botones programables y peso ajustable.",
+      "mark": "Logitech",
+      "available": true,
+      "image": "https://resource.logitechg.com/w_692,c_lpad,ar_4:3,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/g502-lightspeed-gaming-mouse/g502-lightspeed-gallery-1.png?v=1"
+  },
+  {
+      "id": "5b1f38d0-ac4b-4d91-ac93-6f2fe6966237",
+      "name": "Laptop HP ProBook 440 G10",
+      "price": 4499.00,
+      "stock": 100,
+      "category": "Laptops",
+      "description": "Funciones esenciales de grado comercial",
+      "mark": "HP",
+      "available": true,
+      "image": "https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/7/Z/7Z7H4LT-1_T1712683204.png"
+  },
+  {
+      "id": "e3433080-d95c-4e87-8afb-a00099608329",
+      "name": "Laptop HP Envy x360 15-fh0004la",
+      "price": 5199.00,
+      "stock": 3,
+      "category": "Laptops",
+      "description": "Una laptop que convierte cada experiencia en una gran experiencia",
+      "mark": "HP",
+      "available": true,
+      "image": "https://d598hd2wips7r.cloudfront.net/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/8/J/8J424LA-1_T1709057392.png"
+  },
+  {
+    "id": "1222f0da-1349-4117-b423-b5f654dfd053",
+    "name": "iPhone 15 Pro",
+    "price": 4000,
+    "stock": 1,
+    "category": "Phone",
+    "description": "Battery life that's positively Pro.",
+    "mark": "Apple",
+    "available": true,
+    "image": "https://coolboxpe.vtexassets.com/arquivos/ids/335044-800-auto?v=638388558335670000&width=800&height=auto&aspect=true"
+  },
+  {
+    "id": "0639db71-e56b-4d05-a5ce-80e201184ebf",
+    "name": "Vision Pro",
+    "price": 9000,
+    "stock": 40,
+    "category": "Glasses",
+    "description": "Welcome to the era of spatial computing.",
+    "mark": "Apple",
+    "available": false,
+    "image": "https://th.bing.com/th/id/OIP.fUSnNDtsHa2ctEq7fXPfqAHaEK?w=313&h=180&c=7&r=0&o=5&pid=1.7"
+  },
+  {
+    "id": "0fa8ada8-4cba-4dc6-880d-5a3eacb8f32c",
+    "name": "PS4",
+    "price": 1200,
+    "stock": 29,
+    "category": "Game",
+    "description": "A PS4 with GTA V",
+    "mark": "Sony",
+    "available": true,
+    "image": "https://plazavea.vteximg.com.br/arquivos/ids/27065625-1000-1000/image-ddb0fbba920a49498d0f8f3b7287734e.jpg"
+  },{
+    "id": "7c44dc34-559a-4489-8dd7-0f4a91c3b42b",
+    "name": "Samsung Galaxy A15",
+    "price": 650,
+    "stock": 34,
+    "category": "Phone",
+    "description": "Un buen celular, confiable.",
+    "mark": "Samsung",
+    "available": true,
+    "image": "https://coolboxpe.vtexassets.com/arquivos/ids/345975-800-auto?v=638436962051900000&width=800&height=auto&aspect=true"
+  },
+  {
+    "id": "bc30fc60-7032-4ab1-bf22-7c46d9172c83",
+    "name": "Amazon echo",
+    "price": 199,
+    "stock": 0,
+    "category": "Loudspeaker",
+    "description": "Asistente virtual",
+    "mark": "Amazon",
+    "available": false,
+    "image": "https://coolboxpe.vtexassets.com/arquivos/ids/245161-800-auto?v=638078429275430000&width=800&height=auto&aspect=true"
+  } ,
+  {
+    "id": "8000b7df-beb0-4256-b744-e88e40638eb9",
+    "name": "JBL Live Pro 2",
+    "price": 499,
+    "stock": 100,
+    "category": "Headphones",
+    "description": "Audifonos JBL Live Pro 2",
+    "mark": "JBL",
+    "available": true,
+    "image": "https://coolboxpe.vtexassets.com/arquivos/ids/344717-800-auto?v=638434365492200000&width=800&height=auto&aspect=true"
+  },
+  {
+    "id": "bfd9cbbb-3810-4d8b-8071-ade7d2a63dd7",
+    "name": "Apple Watch",
+    "price": 500,
+    "stock": 10,
+    "category": "Watch",
+    "description": "El buen y costoso apple watch",
+    "mark": "Apple",
+    "available": true,
+    "image": "https://coolboxpe.vtexassets.com/arquivos/ids/351115-800-auto?v=638451874605570000&width=800&height=auto&aspect=true"
+  },
+  {
+    "id": "7e68c1eb-65f9-4306-85f8-736cde8abab8",
+    "name": "Lavalier Hippo",
+    "price": 79,
+    "stock": 53,
+    "category": "Microfono",
+    "description": "Microfono Lavalier",
+    "mark": "HIPPO",
+    "available": true,
+    "image": "https://coolboxpe.vtexassets.com/arquivos/ids/315831-800-auto?v=638326324867570000&width=800&height=auto&aspect=true"
+  },
+  {
+    "id": "675f54d2-acd3-4f1f-9425-636947d394fd",
+    "name": "GoPro Hero 12 Black",
+    "price": 1599,
+    "stock": 24,
+    "category": "Camera",
+    "description": "Una cámara para deportes extremos",
+    "mark": "GoPro",
+    "available": true,
+    "image": "https://coolboxpe.vtexassets.com/arquivos/ids/366165-800-auto?v=638518167524700000&width=800&height=auto&aspect=true"
+  },
+  {
+      "id": "a6de5018-1a31-47cd-87a6-aed7e45fe667",
+      "name": "Cámara Canon EOS R100",
+      "price": 2749,
+      "stock": 0,
+      "category": "Camera",
+      "description": "Una cámara profesional",
+      "mark": "Canon",
+      "available": false,
+      "image": "https://coolboxpe.vtexassets.com/arquivos/ids/347055-800-auto?v=638440421244170000&width=800&height=auto&aspect=true"
+  },
+  {
+    "id": "efbfb444-f9ba-4df8-bca1-d34310f25c8f",
+    "name": "Xbox Serie X",
+    "price": 2499,
+    "stock": 2,
+    "category": "Game",
+    "description": "Una Xbox Series X",
+    "mark": "Microsoft",
+    "available": true,
+    "image": "https://coolboxpe.vtexassets.com/arquivos/ids/211100-800-auto?v=637873787852970000&width=800&height=auto&aspect=true"
+  },
+  {
+    "id": "c021566b-7abb-4b84-8054-960a2202784a",
+    "name": "Creality Sermoon D3 Pro",
+    "price": 13199,
+    "stock": 3,
+    "category": "3D Printer",
+    "description": "Imprime un mundo entero",
+    "mark": "CREALITY",
+    "available": true,
+    "image": "https://coolboxpe.vtexassets.com/arquivos/ids/354650-800-auto?v=638467211123230000&width=800&height=auto&aspect=true"
+  },
+  {
+    "id": "c021566b-7abb-4b84-8054-960a2202784a",
+    "name": "Impresora 3D F430",
+    "price": 500,
+    "stock": 0,
+    "category": "Microfono",
+    "description": "El mejor microfono que tendrás",
+    "mark": "BOYA",
+    "available": false,
+    "image": "https://coolboxpe.vtexassets.com/arquivos/ids/318632-800-auto?v=638331476504500000&width=800&height=auto&aspect=true"
+  },
+  {
+    "id": "24525e4d-8b31-49a9-9cc8-92bc5d1a7829",
+    "name": "Aspiradora robot",
+    "price": 1099,
+    "stock": 8,
+    "category": "Robot",
+    "description": "Aspiradora",
+    "mark": "Ismart",
+    "available": true,
+    "image": "https://coolboxpe.vtexassets.com/arquivos/ids/356299-800-auto?v=638475805305800000&width=800&height=auto&aspect=true"
+  }
+]
