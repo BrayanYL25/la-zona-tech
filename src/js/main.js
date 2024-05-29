@@ -11,7 +11,7 @@ const placeholders = ['', '', '', '', '', ''].map(e => factoryBootstrap.createPl
 
 const handleFetch = async () => {
   try {
-    const response = (await fetch('la-zona-tech/products.json')).json()
+    const response = (await fetch('/products.json')).json()
     return response
   } catch (error) {
     console.error(error)
