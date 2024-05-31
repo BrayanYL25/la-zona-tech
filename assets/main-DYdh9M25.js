@@ -38,17 +38,20 @@
   * Bootstrap alert.js v5.3.3 (https://getbootstrap.com/)
   * Copyright 2011-2024 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
-  */(function(n,t){(function(e,s){n.exports=s(Rl(),yn(),Vl(),Wt())})(st,function(e,s,i,r){const o="alert",c=".bs.alert",d=`close${c}`,u=`closed${c}`,g="fade",T="show";class E extends e{static get NAME(){return o}close(){if(s.trigger(this._element,d).defaultPrevented)return;this._element.classList.remove(T);const O=this._element.classList.contains(g);this._queueCallback(()=>this._destroyElement(),this._element,O)}_destroyElement(){this._element.remove(),s.trigger(this._element,u),this.dispose()}static jQueryInterface(A){return this.each(function(){const O=E.getOrCreateInstance(this);if(typeof A=="string"){if(O[A]===void 0||A.startsWith("_")||A==="constructor")throw new TypeError(`No method named "${A}"`);O[A](this)}})}}return i.enableDismissTrigger(E,"close"),r.defineJQueryPlugin(E),E})})(Il);const wi={createCard:(n,t,e,s,i,r,o)=>`
+  */(function(n,t){(function(e,s){n.exports=s(Rl(),yn(),Vl(),Wt())})(st,function(e,s,i,r){const o="alert",c=".bs.alert",d=`close${c}`,u=`closed${c}`,g="fade",T="show";class E extends e{static get NAME(){return o}close(){if(s.trigger(this._element,d).defaultPrevented)return;this._element.classList.remove(T);const O=this._element.classList.contains(g);this._queueCallback(()=>this._destroyElement(),this._element,O)}_destroyElement(){this._element.remove(),s.trigger(this._element,u),this.dispose()}static jQueryInterface(A){return this.each(function(){const O=E.getOrCreateInstance(this);if(typeof A=="string"){if(O[A]===void 0||A.startsWith("_")||A==="constructor")throw new TypeError(`No method named "${A}"`);O[A](this)}})}}return i.enableDismissTrigger(E,"close"),r.defineJQueryPlugin(E),E})})(Il);const wi={createCard:(n,t,e,s,i,r,o,a)=>`
     <div class="card col-7 col-sm-5 col-md-4 col-lg-3">
       <img src="${n}" class="card-img-top pt-2" alt="${t}">
       <div class="card-body">
-        <span class="badge text-bg-primary">${i}</span>
+        <span class="badge text-bg-success">${i}</span>
         <span class="badge text-bg-primary">${r}</span>
         ${o?"":'<span class="badge text-bg-danger">No disponible</span>'}
         <h5 class="card-title">${t}</h5>
         <p class="card-text">${e}</p>
         <a href="#" class="btn btn-outline-primary">S/. ${s}</a>
       </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"><strong>Stock: </strong>${a}</li>
+      </ul>
     </div>`,createPlaceholder:()=>new DOMParser().parseFromString(`<div class="card col-7 col-sm-5 col-md-4 col-lg-3" aria-hidden="true">
     <img src="rect.svg" class="card-img-top" alt="...">
     <div class="card-body">
@@ -64,4 +67,4 @@
        </p>
        <a class="btn btn-outline-primary disabled placeholder col-6" aria-disabled="true"></a>
      </div>
-   </div>`,"text/html").querySelector(".card")},Tn=document,Ts=Tn.querySelector("#content .row"),Hl=Tn.getElementById("title"),Wl=["","","","","",""].map(n=>wi.createPlaceholder()),Fl=async()=>{try{return(await fetch("products.json")).json()}catch(n){console.error(n)}},jl=n=>n.map(({image:t,name:e,description:s,price:i,category:r,mark:o,available:a})=>wi.createCard(t,e,s,i,r,o,a)).join(" ");Tn.addEventListener("DOMContentLoaded",()=>{Hl.classList.add("active"),Ts.append(...Wl),Fl().then(n=>{const t=jl(n);setTimeout(()=>{Ts.innerHTML=t},400)})});
+   </div>`,"text/html").querySelector(".card")},Tn=document,Ts=Tn.querySelector("#content .row"),Hl=Tn.getElementById("title"),Wl=["","","","","",""].map(n=>wi.createPlaceholder()),Fl=async()=>{try{return(await fetch("products.json")).json()}catch(n){console.error(n)}},jl=n=>n.map(({image:t,name:e,description:s,price:i,category:r,mark:o,available:a,stock:c})=>wi.createCard(t,e,s,i,r,o,a,c)).join(" ");Tn.addEventListener("DOMContentLoaded",()=>{Hl.classList.add("active"),Ts.append(...Wl),Fl().then(n=>{const t=jl(n);setTimeout(()=>{Ts.innerHTML=t},400)})});
