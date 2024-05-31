@@ -20,7 +20,7 @@ const handleFetch = async () => {
 
 const createProducts = (products) => {
   return products
-    .map(({ image, name, description, price, category, mark, available }) => factoryBootstrap.createCard(image, name, description, price, category, mark, available))
+    .map(({ image, name, description, price, category, mark, available, stock }) => factoryBootstrap.createCard(image, name, description, price, category, mark, available, stock))
     .join(' ')
 }
 

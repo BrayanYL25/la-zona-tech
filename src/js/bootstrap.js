@@ -1,16 +1,19 @@
 const factoryBootstrap = {
-  createCard: (image, name, description, price, category, mark, available) => { //style="width: 18rem;"
+  createCard: (image, name, description, price, category, mark, available, stock) => { //style="width: 18rem;"
     return `
     <div class="card col-7 col-sm-5 col-md-4 col-lg-3">
       <img src="${image}" class="card-img-top pt-2" alt="${name}">
       <div class="card-body">
-        <span class="badge text-bg-primary">${category}</span>
+        <span class="badge text-bg-success">${category}</span>
         <span class="badge text-bg-primary">${mark}</span>
         ${!available ? '<span class="badge text-bg-danger">No disponible</span>' : ''}
         <h5 class="card-title">${name}</h5>
         <p class="card-text">${description}</p>
         <a href="#" class="btn btn-outline-primary">S/. ${price}</a>
       </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"><strong>Stock: </strong>${stock}</li>
+      </ul>
     </div>`
   },
   createPlaceholder: () => {
