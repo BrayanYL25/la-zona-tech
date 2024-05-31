@@ -47,11 +47,13 @@
         ${o?"":'<span class="badge text-bg-danger">No disponible</span>'}
         <h5 class="card-title">${t}</h5>
         <p class="card-text">${e}</p>
+      </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><strong>Stock: </strong>${a}</li>
+        </ul>
+      <div class="card-body">
         <a href="#" class="btn btn-outline-primary">S/. ${s}</a>
       </div>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item"><strong>Stock: </strong>${a}</li>
-      </ul>
     </div>`,createPlaceholder:()=>new DOMParser().parseFromString(`<div class="card col-7 col-sm-5 col-md-4 col-lg-3" aria-hidden="true">
     <img src="rect.svg" class="card-img-top" alt="...">
     <div class="card-body">
