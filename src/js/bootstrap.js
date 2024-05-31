@@ -9,11 +9,13 @@ const factoryBootstrap = {
         ${!available ? '<span class="badge text-bg-danger">No disponible</span>' : ''}
         <h5 class="card-title">${name}</h5>
         <p class="card-text">${description}</p>
+      </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><strong>Stock: </strong>${stock}</li>
+        </ul>
+      <div class="card-body">
         <a href="#" class="btn btn-outline-primary">S/. ${price}</a>
       </div>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item"><strong>Stock: </strong>${stock}</li>
-      </ul>
     </div>`
   },
   createPlaceholder: () => {
